@@ -15,7 +15,7 @@ const Intraction = () => {
    
          s.preventDefault(s)
          
-        count=count+1
+        count=count+2
 
   
 
@@ -32,6 +32,14 @@ const Intraction = () => {
 
      }
 
+    const mousehover=()=>{
+       
+      count=count+1
+
+      alert(count)
+  
+    }
+
     
   return (
     <>
@@ -44,7 +52,7 @@ const Intraction = () => {
       </div>
     </div>
     
-    <section className="mt-5">
+    <section className="mt-3">
       <div className="bg-amber-300  flex-col h-100  flex justify-center items-center">
       <div className=" text-center font-extrabold  text-5xl rounded">
         onsubmit Process 
@@ -55,6 +63,17 @@ const Intraction = () => {
         <input type="submit" value="Register" className="bg-white p-1 ml-4 w-30 rounded"/>
 
       </form>
+      </div>
+    </section>
+
+    <section className="mt-3"> 
+     <div className="bg-red-500  flex-col h-100  flex justify-center items-center">
+      <div className=" text-center font-extrabold  text-5xl rounded ">
+        onmousehover Process 
+      </div>
+      <div>
+          <button className="bg-white p-1 w-20 rounded mt-3 font-bold hover:bg-amber-300 text-black" onMouseEnter={mousehover}>Click Me</button>
+        </div>
       </div>
     </section>
     </>

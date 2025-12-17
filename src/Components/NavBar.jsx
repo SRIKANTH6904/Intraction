@@ -10,11 +10,13 @@ const NavBar = () => {
         </div>
         <div className="flex gap-8">
           <Link to="/"className="text-slate-200 font-medium hover:text-sky-400">Home</Link>
-         <Link to="/Intraction" className="text-slate-200 font-medium hover:text-sky-400 ">Intraction</Link>
+         <Link to="Intraction" className="text-slate-200 font-medium hover:text-sky-400 ">Intraction</Link>
+         <Link to="/Function" className="text-slate-200 font-medium hover:text-sky-400 w-">Function_Process</Link>
         </div>
-      </div>
+        
+        </div>
     </>
-  );
-};
+  )
+}
 
 export default NavBar;
