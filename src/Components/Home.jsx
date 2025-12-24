@@ -1,12 +1,16 @@
+import ProfileCarts from "./ProfileCards"
+
 const Home = () => {
 
   return (
     <>
-     <div className="bg-red-300 h-100  flex justify-center items-center ">
+     <div >
       <div className=" text-center font-extrabold  text-5xl rounded">
-        Home Process 
       </div>
       </div>
+
+
+       <ProfileCarts />
     </>
   )
 }

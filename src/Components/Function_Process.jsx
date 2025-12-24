@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Non_Primitive from "./Non_Primitive"
-import Primotive from "./Primitive"
+import Primotive from "../../Primitive"
 
 const Function_Process=()=>{
 

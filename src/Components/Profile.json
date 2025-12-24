@@ -1,0 +1,72 @@
+[
+  {
+    "playerId": "P001",
+    "playerName": "Sachin Tendulkar",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break, Leg break",
+    "matches": "664",
+    "runs": "34357",
+    "wickets": "201",
+    "centuries": "100",
+    "average": "48.52",
+    "nickname": "Master Blaster"
+  },
+  {
+    "playerId": "P002",
+    "playerName": "Kapil Dev",
+    "country": "India",
+    "role": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "matches": "356",
+    "runs": "9031",
+    "wickets": "687",
+    "centuries": "8",
+    "average": "29.64",
+    "nickname": "Haryana Hurricane"
+  },
+  {
+    "playerId": "P003",
+    "playerName": "Sunil Gavaskar",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "matches": "233",
+    "runs": "13214",
+    "wickets": "1",
+    "centuries": "35",
+    "average": "51.46",
+    "nickname": "Sunny"
+  },
+  {
+    "playerId": "P004",
+    "playerName": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "matches": "483",
+    "runs": "18569",
+    "wickets": "8",
+    "centuries": "48",
+    "average": "48.89",
+    "nickname": "Hitman"
+  },
+  {
+    "playerId": "P005",
+    "playerName": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "matches": "535",
+    "runs": "26942",
+    "wickets": "4",
+    "centuries": "80",
+    "average": "54.01",
+    "nickname": "King Kohli"
+  }
+]

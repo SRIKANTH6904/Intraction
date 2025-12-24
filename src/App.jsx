@@ -6,13 +6,14 @@ import Function_Process from "./Components/Function_Process"
 
 
 
+
 const App = () => {
   return (
     <>
     <header>
       <NavBar/>
     </header>
-
+ 
     <main>
         <Routes>
           <Route path="/" element={<Home/>}/>
