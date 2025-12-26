@@ -1,3 +1,8 @@
+import GreetingSwitcher from "./GreetingSwitcher"
+import LimitedCounter from "./LimitedCounter"
+import ToggleMessage from "./ToggleMessage"
+import UserProfile from "./UserProfile"
+
 const Intraction = () => {
 
      let count = 0
@@ -43,7 +48,7 @@ const Intraction = () => {
     
   return (
     <>
-    <div className="bg-green-600 flex-col h-100  flex justify-center items-center">
+    <div className="bg-green-600 flex-col h-30  flex justify-center items-center">
       <div className=" text-center font-extrabold  text-5xl rounded">
         Intraction Process {count}
       </div>
@@ -53,7 +58,7 @@ const Intraction = () => {
     </div>
     
     <section className="mt-3">
-      <div className="bg-amber-300  flex-col h-100  flex justify-center items-center">
+      <div className="bg-amber-300  flex-col h-30  flex justify-center items-center">
       <div className=" text-center font-extrabold  text-5xl rounded">
         onsubmit Process 
       </div>
@@ -67,7 +72,7 @@ const Intraction = () => {
     </section>
 
     <section className="mt-3"> 
-     <div className="bg-red-500  flex-col h-100  flex justify-center items-center">
+     <div className="bg-red-500  flex-col h-30 flex justify-center items-center">
       <div className=" text-center font-extrabold  text-5xl rounded ">
         onmousehover Process 
       </div>
@@ -76,6 +81,11 @@ const Intraction = () => {
         </div>
       </div>
     </section>
+
+    <ToggleMessage/> 
+    <LimitedCounter/>
+    <GreetingSwitcher/>
+    <UserProfile/>
     </>
   )
 }

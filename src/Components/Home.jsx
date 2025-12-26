@@ -1,5 +1,6 @@
 import ProfileCarts from "./ProfileCards"
 
+
 const Home = () => {
 
   return (
@@ -11,6 +12,8 @@ const Home = () => {
 
 
        <ProfileCarts />
+
+       
     </>
   )
 }
